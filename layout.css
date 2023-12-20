@@ -1,0 +1,68 @@
+.navbar {
+  display: flex;
+  font-family: "Urbanist", sans-serif;
+  justify-content: center; /* Centrerer indholdet vandret */
+  align-items: center; /* Centrerer indholdet lodret */
+  margin-right: 2%;
+}
+
+.navbar a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* CSS for dropdown-menuen */
+
+.dropdown .dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown {
+  position: relative;
+}
+
+/* Styling for "Vær med" knappen */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 20px;
+}
+
+/* Styling for dropdown-menuens links */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  border-radius: 12px;
+}
+
+.navbar a:hover,
+.dropdown:hover .dropbtn {
+  background-color: #9ed1ab;
+  color: white;
+  padding: 14px 16px;
+  cursor: pointer;
+}
