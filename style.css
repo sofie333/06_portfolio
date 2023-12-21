@@ -23,3 +23,12 @@ header {
 body {
   background-color: #d19ec4;
 }
+
+li {
+  list-style: none;
+}
+
+.aktiv a {
+  color: #ffff;
+  background-color: #9ed1ab;
+}
