@@ -4,6 +4,7 @@
   justify-content: center; /* Centrerer indholdet vandret */
   align-items: center; /* Centrerer indholdet lodret */
   margin-right: 2%;
+  gap: 20px;
 }
 
 .navbar a {
@@ -36,7 +37,7 @@
   position: relative;
 }
 
-/* Styling for "Vær med" knappen */
+/* Styling for "portfolio" knappen */
 .dropdown .dropbtn {
   border: none;
   outline: none;
@@ -65,4 +66,110 @@
   color: white;
   padding: 14px 16px;
   cursor: pointer;
+}
+
+@media (min-width: 1000px) {
+  .grid_1-1 {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    margin-top: 8%;
+    padding: 2%;
+  }
+
+  .navn {
+    padding-right: 6%;
+  }
+
+  .portraet {
+    border-radius: 100px;
+  }
+
+  #flower1 {
+    top: 12%;
+    left: 20%;
+  }
+
+  #flower2 {
+    top: 80%;
+    left: 68%;
+  }
+
+  #flower3 {
+    top: 15%;
+    left: 70%;
+  }
+
+  .grid_1-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
+  }
+
+  .grid_1-2 p {
+    margin-right: 10%;
+    margin-top: 5%;
+  }
+
+  .grid_1-2 img {
+    height: 600px;
+  }
+
+  .om_mig {
+    margin-top: 5%;
+    margin-left: 10%;
+  }
+
+  .grid_1-2 img {
+    border-radius: 100px;
+    margin-bottom: 2%;
+  }
+
+  .col_1-3 {
+    background-color: #f8f8f8;
+    margin-left: 3%;
+    margin-right: 3%;
+    color: #000000;
+  }
+
+  .col_1-3 h2 {
+    text-align: center;
+    margin-top: 2%;
+  }
+}
+
+@media (max-width: 1000px) {
+  .portraet {
+    border-radius: 100px;
+    max-width: 50%;
+    margin-left: 20%;
+    margin-top: 5%;
+  }
+
+  .grid_1-1 {
+    margin-top: 5%;
+  }
+
+  .navn {
+    padding-top: 4%;
+  }
+
+  .grid_1-2 img {
+    border-radius: 100px;
+  }
+
+  #flower1 {
+    top: 50%;
+    left: 15%;
+  }
+
+  #flower2 {
+    top: 75%;
+    left: 75%;
+  }
+
+  #flower3 {
+    top: 60%;
+    left: 80%;
+  }
 }

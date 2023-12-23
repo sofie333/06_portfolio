@@ -8,15 +8,18 @@
 }
 
 img {
-  width: 100%;
+  max-width: 100%;
   height: auto;
   display: block;
-  margin-top: 30px;
-  margin-bottom: 40px;
 }
 
 header {
   background-color: #ffff;
+  padding: 5px;
+}
+
+footer {
+  font-family: "Urbanist", sans-serif;
   padding: 5px;
 }
 
@@ -31,4 +34,23 @@ li {
 .aktiv a {
   color: #ffff;
   background-color: #9ed1ab;
+}
+
+main {
+  font-family: "Urbanist", sans-serif;
+  color: #ffff;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+p {
+  font-size: 1.3rem;
 }

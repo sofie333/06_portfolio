@@ -1,0 +1,62 @@
+#flower1 {
+  background-image: url(img/flower.svg);
+  background-size: cover;
+  aspect-ratio: 1.05/1;
+  position: absolute;
+
+  width: 7%;
+}
+
+#flower2 {
+  background-image: url(img/flower.svg);
+  background-size: cover;
+  aspect-ratio: 1.05/1;
+  position: absolute;
+  width: 4%;
+}
+
+#flower3 {
+  background-image: url(img/flower.svg);
+  background-size: cover;
+  aspect-ratio: 1.05/1;
+  position: absolute;
+  width: 5%;
+}
+
+.pulse1 {
+  animation-name: pulse1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse1_kf {
+  0% {
+    scale: 1 1;
+  }
+  50% {
+    scale: 1.2 1.2;
+  }
+  100% {
+    scale: 1 1;
+  }
+}
+
+.pulse2 {
+  animation-name: pulse2_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes pulse2_kf {
+  0% {
+    scale: 1.3 1.3;
+  }
+  50% {
+    scale: 1 1;
+  }
+  100% {
+    scale: 1.3 1.3;
+  }
+}
