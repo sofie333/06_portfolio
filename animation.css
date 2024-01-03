@@ -23,6 +23,21 @@
   width: 5%;
 }
 
+#flower1 {
+  top: 12%;
+  left: 20%;
+}
+
+#flower2 {
+  top: 80%;
+  left: 68%;
+}
+
+#flower3 {
+  top: 15%;
+  left: 70%;
+}
+
 .pulse1 {
   animation-name: pulse1_kf;
   animation-duration: 2s;
