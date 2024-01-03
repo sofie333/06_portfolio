@@ -14,17 +14,11 @@ img {
 }
 
 header {
-  background-color: #ffff;
-  padding: 5px;
-}
-
-footer {
-  font-family: "Urbanist", sans-serif;
   padding: 5px;
 }
 
 body {
-  background-color: #d19ec4;
+  background-color: #eed9c4;
 }
 
 li {
@@ -32,13 +26,47 @@ li {
 }
 
 .aktiv a {
-  color: #ffff;
-  background-color: #9ed1ab;
+}
+
+.index {
+  background-color: #eec4c4;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.web {
+  background-color: #c4dfee;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.ux {
+  background-color: #c9c4ee;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.animation {
+  background-color: #eec4e1;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.indhold {
+  background-color: #e8c4ee;
+  border-radius: 10px;
+  padding: 5px 10px;
+}
+
+.ommig {
+  background-color: #eec4c4;
+  border-radius: 10px;
+  padding: 5px 10px;
 }
 
 main {
   font-family: "Urbanist", sans-serif;
-  color: #ffff;
+  color: #5b3f23;
   margin-left: 5%;
   margin-right: 5%;
 }
@@ -48,9 +76,16 @@ h1 {
 }
 
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 
 p {
   font-size: 1.3rem;
+  line-height: 1.5rem;
+  hyphens: auto;
+  overflow-wrap: break-word;
+}
+
+.overskrift {
+  font-weight: 600;
 }
