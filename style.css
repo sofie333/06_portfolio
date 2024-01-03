@@ -81,11 +81,15 @@ h2 {
 
 p {
   font-size: 1.3rem;
-  line-height: 1.5rem;
+  line-height: 1.7rem;
   hyphens: auto;
   overflow-wrap: break-word;
 }
 
 .overskrift {
-  font-weight: 600;
+  font-size: 1.4rem;
+}
+
+a {
+  text-decoration: none;
 }
