@@ -76,6 +76,18 @@ footer a {
   background-color: #95cdec;
 }
 
+.link_opgave_3 {
+  color: #5b3f23;
+  border-radius: 12px;
+  background-color: #eec4e1;
+  border: 2px solid #ecafd9;
+  padding: 10px 15px;
+}
+
+.link_opgave_3:hover {
+  background-color: #daabcb;
+}
+
 .col_1-4 {
   margin-top: 5%;
   margin-bottom: 5%;
@@ -193,6 +205,10 @@ footer a {
 
   .grid_2-3 img {
     margin-bottom: 10%;
+  }
+
+  .img_animation {
+    margin-top: 7%;
   }
 }
 
