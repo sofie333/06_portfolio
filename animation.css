@@ -1,5 +1,5 @@
 #flower1 {
-  background-image: url(img/flower.svg);
+  background-image: url(img/flower_1.svg);
   background-size: cover;
   aspect-ratio: 1.05/1;
   position: absolute;
@@ -8,7 +8,7 @@
 }
 
 #flower2 {
-  background-image: url(img/flower.svg);
+  background-image: url(img/flower_2.svg);
   background-size: cover;
   aspect-ratio: 1.05/1;
   position: absolute;
@@ -16,7 +16,7 @@
 }
 
 #flower3 {
-  background-image: url(img/flower.svg);
+  background-image: url(img/flower_3.svg);
   background-size: cover;
   aspect-ratio: 1.05/1;
   position: absolute;
