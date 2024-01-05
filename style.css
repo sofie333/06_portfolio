@@ -102,3 +102,12 @@ p {
 a {
   text-decoration: none;
 }
+
+/* erstatter det indhold der før var der */
+.linkedin:hover {
+  content: url(img/linkedin_logo2.svg);
+}
+
+.mail:hover {
+  color: #eed9c4;
+}
