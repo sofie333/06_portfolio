@@ -3,7 +3,6 @@
   font-family: "Urbanist", sans-serif;
   justify-content: center; /* Centrerer indholdet vandret */
   align-items: center; /* Centrerer indholdet lodret */
-  margin-right: 2%;
   gap: 20px;
 }
 
@@ -12,16 +11,15 @@
   justify-content: center; /* Centrerer indholdet vandret */
   align-items: center; /* Centrerer indholdet lodret */
   gap: 20px;
-  color: black;
+  color: #000000;
   padding: 14px 16px;
-  margin: 0;
   border-radius: 12px;
   font-weight: 600;
   font-size: 20px;
 }
 
 .navbar a {
-  color: black;
+  color: #000000;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -31,9 +29,6 @@
 }
 
 footer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   font-family: "Urbanist", sans-serif;
   background-color: #5b3f23;
   color: #f8f8f8;
@@ -44,10 +39,24 @@ footer a {
   color: #f8f8f8;
 }
 
-.footer_1 {
-  text-align: right;
-  border-right: 1px solid #000000;
+.footer_menu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
   gap: 20px;
+}
+
+.footer_col {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
+  margin: 2%;
+}
+
+.footer_kontakt {
+  text-align: center;
 }
 
 .stiplet_linje {
@@ -67,37 +76,49 @@ footer a {
 .link_opgave {
   color: #5b3f23;
   border-radius: 12px;
-  background-color: #c4dfee;
-  border: 2px solid #a0cfe9;
+  background-color: #bfd3ef;
+  border: 2px solid #a7b8d1;
   padding: 10px 15px;
 }
 
 .link_opgave:hover {
-  background-color: #95cdec;
+  background-color: #a7b8d1;
+}
+
+.link_opgave_2 {
+  color: #5b3f23;
+  border-radius: 12px;
+  background-color: #c9c4ee;
+  border: 2px solid #afaad3;
+  padding: 10px 15px;
+}
+
+.link_opgave_2:hover {
+  background-color: #afaad3;
 }
 
 .link_opgave_3 {
   color: #5b3f23;
   border-radius: 12px;
-  background-color: #eec4e1;
-  border: 2px solid #ecafd9;
+  background-color: #f7afaf;
+  border: 2px solid #e3a0a0;
   padding: 10px 15px;
 }
 
 .link_opgave_3:hover {
-  background-color: #daabcb;
+  background-color: #e3a0a0;
 }
 
 .link_opgave_4 {
   color: #5b3f23;
   border-radius: 12px;
-  background-color: #e8c4ee;
-  border: 2px solid #e1b0ea;
+  background-color: #e2b5d4;
+  border: 2px solid #c49bb7;
   padding: 10px 15px;
 }
 
 .link_opgave_4:hover {
-  background-color: #d9a8e1;
+  background-color: #c49bb7;
 }
 
 .col_1-4 {
@@ -112,6 +133,30 @@ footer a {
 @media (min-width: 1000px) {
   .dropbtn {
     display: none;
+  }
+
+  .index:hover {
+    background-color: #d8a886;
+  }
+
+  .web:hover {
+    background-color: #a7b8d1;
+  }
+
+  .ux:hover {
+    background-color: #afaad3;
+  }
+
+  .animation:hover {
+    background-color: #e3a0a0;
+  }
+
+  .indhold:hover {
+    background-color: #c49bb7;
+  }
+
+  .ommig:hover {
+    background-color: #e09fb4;
   }
 
   .grid_1-1 {
@@ -271,11 +316,11 @@ footer a {
   }
 
   .navbar a {
-    color: black;
+    color: #000000;
     text-align: center;
-    padding: 14px 16px;
+    padding: 5px 10px;
     text-decoration: none;
-    border-radius: 12px;
+    border-radius: 10px;
     font-weight: 600;
     font-size: 20px;
   }
@@ -285,11 +330,11 @@ footer a {
   .dropdown .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f8f8f8;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    border-radius: 12px;
+    border-radius: 10px;
   }
 
   .dropdown:hover .dropdown-content {
@@ -304,12 +349,11 @@ footer a {
   .dropdown .dropbtn {
     border: none;
     outline: none;
-    color: black;
-    padding: 14px 16px;
-    background-color: inherit;
-    font-family: inherit;
+    color: #000000;
+    padding: 5px 10px;
+    background-color: #eed9c4;
+    font-family: "Urbanist", sans-serif;
     margin: 0;
-    border-radius: 12px;
     font-weight: 600;
     font-size: 20px;
   }
@@ -317,18 +361,31 @@ footer a {
   /* Styling for dropdown-menuens links */
   .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 5px 10px;
     text-decoration: none;
     display: block;
-    border-radius: 12px;
+    border-radius: 10px;
   }
 
   .navbar a:hover,
   .dropdown:hover .dropbtn {
-    background-color: #9ed1ab;
-    color: white;
-    padding: 14px 16px;
+    background-color: #5b3f23;
+    color: #f8f8f8;
+    padding: 5px 10px;
     cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .index,
+  .ommig {
+    background-color: #eed9c4;
+  }
+
+  .web,
+  .ux,
+  .animation,
+  .indhold {
+    background-color: #f8f8f8;
   }
 
   .portraet {

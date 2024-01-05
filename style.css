@@ -25,17 +25,22 @@ li {
   list-style: none;
 }
 
-.aktiv a {
-}
-
 .index {
-  background-color: #eec4c4;
+  background-color: #f2bb94;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
+.index_a a {
+  background-color: #d8a886;
+}
+
+.web_a a {
+  background-color: #a7b8d1;
+}
+
 .web {
-  background-color: #c4dfee;
+  background-color: #bfd3ef;
   border-radius: 10px;
   padding: 5px 10px;
 }
@@ -47,19 +52,19 @@ li {
 }
 
 .animation {
-  background-color: #eec4e1;
+  background-color: #f7afaf;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
 .indhold {
-  background-color: #e8c4ee;
+  background-color: #e2b5d4;
   border-radius: 10px;
   padding: 5px 10px;
 }
 
 .ommig {
-  background-color: #eec4c4;
+  background-color: #f7afc7;
   border-radius: 10px;
   padding: 5px 10px;
 }
