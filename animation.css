@@ -23,19 +23,38 @@
   width: 5%;
 }
 
-#flower1 {
-  top: 12%;
-  left: 20%;
+@media (min-width: 1000px) {
+  #flower1 {
+    top: 12%;
+    left: 20%;
+  }
+
+  #flower2 {
+    top: 80%;
+    left: 68%;
+  }
+
+  #flower3 {
+    top: 15%;
+    left: 70%;
+  }
 }
 
-#flower2 {
-  top: 80%;
-  left: 68%;
-}
+@media (max-width: 1000px) {
+  #flower1 {
+    top: 47%;
+    left: 25%;
+  }
 
-#flower3 {
-  top: 15%;
-  left: 70%;
+  #flower2 {
+    top: 76%;
+    left: 68%;
+  }
+
+  #flower3 {
+    top: 59%;
+    left: 69%;
+  }
 }
 
 .pulse1 {
