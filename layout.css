@@ -75,7 +75,7 @@ footer a {
   font-size: 1rem;
 }
 
-.grid_footer {
+.flex_footer {
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -167,6 +167,10 @@ footer a {
 @media (min-width: 1000px) {
   .dropbtn {
     display: none;
+  }
+
+  .navbar .aktiv a {
+    color: #f8f8f8;
   }
 
   .index:hover {
@@ -340,6 +344,14 @@ footer a {
 }
 
 @media (max-width: 1000px) {
+  .navbar .aktiv a {
+    background-color: #5b3f23;
+    color: #f8f8f8;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
   .navbar {
     display: flex;
     font-family: "Urbanist", sans-serif;
@@ -360,7 +372,6 @@ footer a {
   }
 
   /* CSS for dropdown-menuen */
-
   .dropdown .dropdown-content {
     display: none;
     position: absolute;
@@ -426,6 +437,11 @@ footer a {
     max-width: 50%;
     margin-left: 20%;
     margin-top: 5%;
+  }
+
+  .om_mig {
+    margin-top: 5%;
+    margin-bottom: 2%;
   }
 
   .grid_1-1 {
@@ -502,5 +518,9 @@ footer a {
   .grid_2-3 img {
     margin-top: 10%;
     margin-bottom: 5%;
+  }
+
+  .grid_2-3 {
+    margin-bottom: 7%;
   }
 }
