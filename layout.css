@@ -1,21 +1,18 @@
 .navbar {
   display: flex;
   font-family: "Urbanist", sans-serif;
-  justify-content: center; /* Centrerer indholdet vandret */
-  align-items: center; /* Centrerer indholdet lodret */
+  justify-content: center;
+  align-items: center;
   gap: 20px;
 }
 
 .dropdown-content {
   display: flex;
-  justify-content: center; /* Centrerer indholdet vandret */
-  align-items: center; /* Centrerer indholdet lodret */
+  justify-content: center;
   gap: 20px;
   color: #000000;
   padding: 14px 16px;
   border-radius: 12px;
-  font-weight: 600;
-  font-size: 20px;
 }
 
 .navbar a {
@@ -355,9 +352,7 @@ footer a {
   .navbar {
     display: flex;
     font-family: "Urbanist", sans-serif;
-    justify-content: center; /* Centrerer indholdet vandret */
-    align-items: center; /* Centrerer indholdet lodret */
-    margin-right: 2%;
+    justify-content: center;
     gap: 20px;
   }
 
@@ -367,8 +362,6 @@ footer a {
     padding: 5px 10px;
     text-decoration: none;
     border-radius: 10px;
-    font-weight: 600;
-    font-size: 20px;
   }
 
   /* CSS for dropdown-menuen */
@@ -386,32 +379,27 @@ footer a {
     display: block;
   }
 
-  .dropdown {
-    position: relative;
-  }
-
   /* Styling for "portfolio" knappen */
   .dropdown .dropbtn {
     border: none;
-    outline: none;
     color: #000000;
     padding: 5px 10px;
     background-color: #eed9c4;
     font-family: "Urbanist", sans-serif;
-    margin: 0;
     font-weight: 600;
     font-size: 20px;
   }
 
   /* Styling for dropdown-menuens links */
   .dropdown-content a {
-    color: black;
+    color: #000000;
     padding: 5px 10px;
     text-decoration: none;
     display: block;
     border-radius: 10px;
   }
 
+  /* Styling af hover */
   .navbar a:hover,
   .dropdown:hover .dropbtn {
     background-color: #5b3f23;
